@@ -1,0 +1,119 @@
+body{
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1210px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.brand-name{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+.nav ul li{
+  display: inline-block;
+  margin:0 21px;
+}
+a{
+  text-decoration: none;
+}
+.nav-link{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.btn{
+  padding: 13px 17px;
+  background: #373737;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.head{
+  height: 762.19px;
+  background-image:url('./assets/3742 1.png');
+  background-size: cover;
+}
+.title{
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+.text{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: white;
+}
+.card-img{
+  width: 257px;
+height: 172px;
+}
+.card-name{
+  font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #373737;
+}
+.card-text{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696161;
+}
+.card{
+  width: 267px;
+  background: #F9F9F9;
+  box-shadow: 8px 8px 20px rgba(39, 39, 43, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.mebel-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  
+  min-height: 500px;
+}
+.btn-cat{
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #686868;
+  margin: 0 15px;
+  background-color: transparent;
+}
+.btn-cat:hover{
+  color: black;
+}
