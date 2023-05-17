@@ -16,6 +16,7 @@ function Mebel() {
       .then((response) => response.json())
       .then((data) => {
         setFurnitureData(data);
+        setFilterData(data)
         setIsLoading(false); 
       })
       .catch((error) => console.log(error));
@@ -82,6 +83,7 @@ function Mebel() {
                 img={mebel.image}
                 price={mebel.price}
                 category={mebel.category}
+                product={mebel}
                 />
           ))}
       </div>
